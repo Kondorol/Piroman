@@ -1,0 +1,162 @@
+body{
+    background-color: #121212;
+}
+.Menu {
+    display: flex;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -9px;
+    margin-left: -6px;
+    margin-right: -8px;
+    
+    
+}
+.Plyty h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.Plyty p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+
+.Plyty {
+    margin-top: -60px;
+    margin-right: 15%;
+}
+
+span:hover{
+    transform: translateY(20px);
+    cursor: pointer;
+    
+}
+span {
+    transition:  transform 0.5s ease, all 0.5s ease;
+    
+    font-family: Arial;
+}
+
+.Koszulki h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.Koszulki p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+
+.Koszulki {
+    margin-top: -60px;
+    
+}
+.Koszyk h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.Koszyk p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+.Koszyk {
+    margin-top: -60px;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    
+}
+.PIROMAN h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.PIROMAN p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+.PIROMAN {
+    margin-top: -60px;
+    margin-left: auto;
+}
+#active {
+    color: #919191;
+    
+}
+.plyta img {
+    width: 25%;
+    box-shadow: 25px 25px;
+    display: block;
+    margin: auto;
+    margin-top: -130px;
+    border-radius: 50px;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+.plyta img:hover {
+    transform: translateY(60px);
+    
+}
+.nazwa {
+    justify-content: center;
+    display: flex;
+    z-index: 0;
+    margin-top: 6%;
+    font-family: Arial;
+    color: #515151;
+    margin-bottom: -25px;
+    font-size: 35px;
+    
+}
+.cena {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-family: Arial;
+    color: #717171;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 15px
+}

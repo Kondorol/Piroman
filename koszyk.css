@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Palaca;
+    src:url(palaca.ttf)
+    
+}
+
+img {
+    display: block;
+    margin: 30px auto ;
+    font-size: 225px;
+}
+body{
+    background-color: #121212;
+}
+
+
+.duze {
+    display: block;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    background-color: #515151;
+    margin: 0 35%;
+    border-radius: 100px;
+    
+    
+}
+.Menu {
+    display: flex;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -9px;
+    margin-left: -6px;
+    margin-right: -8px;
+    
+    
+}
+.Plyty h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.Plyty p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+
+.Plyty {
+    margin-top: -60px;
+    margin-right: 15%;
+}
+
+span:hover{
+    transform: translateY(20px);
+    cursor: pointer;
+    
+}
+span {
+    transition:  transform 0.5s ease, all 0.5s ease;
+    
+    font-family: Arial;
+}
+
+.Koszulki h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.Koszulki p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+
+.Koszulki {
+    margin-top: -60px;
+    
+}
+
+.pole {
+    background-color: #515151;
+    display: block;
+    border-radius: 24px;
+    text-align: center;
+    border: 0px;
+    padding: 10px 10px;
+    outline: none;
+    margin: auto;
+    transition: 0.5s ease;
+}
+
+.ok {
+    color: black;
+    background-color: #515151;
+    text-align: center;
+    border: 0px;
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 24px;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+.ok:hover {
+    transform: translateY(5px);
+    background-color: #313131;
+    cursor: pointer;
+    color: white;
+}
+.pole:hover {
+    opacity: 0.5;
+    
+}
+.Koszyk h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.Koszyk p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+.Koszyk {
+    margin-top: -60px;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    
+}
+.PIROMAN h2 {
+    color: #515151;
+    padding: 30px 30px 5px 30px;
+    background-color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.PIROMAN p {
+    color: #515151;
+    padding: 28px 30px 5px 30px;
+    text-align: center;
+    background-color: #101010;
+    margin-bottom: -10px;
+    
+}
+.PIROMAN {
+    margin-top: -60px;
+    margin-left: auto;
+}
+#active {
+    color: #919191;
+    
+}
